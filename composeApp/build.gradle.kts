@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-    id("io.sentry.android.gradle")
+
 }
 
 kotlin {
@@ -30,6 +30,7 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.activity.compose)
+            implementation("io.sentry:sentry-android:8.31.0")
         }
         commonMain.dependencies {
             implementation(libs.compose.runtime)
@@ -76,8 +77,13 @@ android {
 
 dependencies {
     debugImplementation(libs.compose.uiTooling)
-    implementation("io.sentry:sentry-android:8.31.0")
 
 
 }
+
+compose.resources {
+    publicResClass = true
+    packageOfResClass = "ucb.edu.bo.generated.resources"
+}
+
 

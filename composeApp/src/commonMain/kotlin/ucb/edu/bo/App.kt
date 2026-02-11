@@ -15,16 +15,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import org.jetbrains.compose.resources.painterResource
+import ucb.edu.bo.generated.resources.Res
+import ucb.edu.bo.home.presentation.screen.HomeScreen
 
-import myproyect.composeapp.generated.resources.Res
-import myproyect.composeapp.generated.resources.compose_multiplatform
 
 @Composable
 @Preview
 fun App() {
     MaterialTheme {
-        var showContent by remember { mutableStateOf(false) }
-
+        HomeScreen()
 
         }
     }

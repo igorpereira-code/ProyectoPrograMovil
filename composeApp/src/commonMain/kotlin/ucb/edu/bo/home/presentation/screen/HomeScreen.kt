@@ -1,4 +1,5 @@
 package ucb.edu.bo.home.presentation.screen
+import ucb.edu.bo.generated.resources.Res
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -16,8 +17,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import myproyect.composeapp.generated.resources.Res
+import ucb.edu.bo.generated.resources.woman
+import ucb.edu.bo.generated.resources.cart
 import org.jetbrains.compose.resources.painterResource
+
+
+
 
 @Composable
 fun HomeScreen()
@@ -36,17 +41,18 @@ fun HomeScreen()
                 Text(text = "Collections")
             }
 
-            Image (
-                painter = painterResource(resource = Res.drawable.Woman),
+            Image(
+                painter = painterResource(Res.drawable.cart),
                 contentDescription = null
             )
+
 
         }
 
         Box()
         {
             Image(
-                painter = painterResource(resource = Res.drawable.Frame),
+                painter = painterResource(resource =  Res.drawable.woman),
                 contentDescription = null
             )
             Button(
@@ -61,7 +67,7 @@ fun HomeScreen()
         Box()
         {
             Image(
-                painter = painterResource(resource = Res.drawable.frame),
+                painter = painterResource(resource = Res.drawable.woman),
                 contentDescription = null
             )
             Button(
@@ -75,7 +81,7 @@ fun HomeScreen()
         Box()
         {
             Image(
-                painter = painterResource(resource = Res.drawable.frame),
+                painter = painterResource(resource = Res.drawable.woman),
                 contentDescription = null
             )
             Button(
