@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_title">La Mia Applicazione</string>
+    <string name="welcome_message">Benvenuto</string>
+    <string name="button_save">Salva</string>
+    <string name="button_cancel">Annulla</string>
+</resources>

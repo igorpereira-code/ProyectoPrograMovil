@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442215889943",
+    "project_id": "myuniqueprojectidawsome",
+    "storage_bucket": "myuniqueprojectidawsome.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442215889943:android:7f728833a8fbc53a9ef052",
+        "android_client_info": {
+          "package_name": "ucb.edu.bo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS1SerEpkyQUYreEdrKWKogbsC20wAHAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,29 +1,23 @@
 package ucb.edu.bo
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.safeContentPadding
-import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import org.jetbrains.compose.resources.painterResource
-import ucb.edu.bo.generated.resources.Res
-import ucb.edu.bo.home.presentation.screen.HomeScreen
+import ucb.edu.bo.localization.presentation.screen.LocalizationScreen
+import ucb.edu.bo.pushnotification.presentation.screen.PushNotificationScreen
+import ucb.edu.bo.realtimedatabasecmp.presentation.screen.FirebaseTestScreen
+import ucb.edu.bo.remoteconfig.presentation.screen.RemoteConfigScreen
 
 
 @Composable
 @Preview
 fun App() {
     MaterialTheme {
-        HomeScreen()
+        //FirebaseTestScreen()
+        //DollarScreen()
+        //PushNotificationScreen()
+        //RemoteConfigScreen()
+        LocalizationScreen()
 
         }
     }

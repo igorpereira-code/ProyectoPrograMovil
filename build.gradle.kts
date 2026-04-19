@@ -7,5 +7,6 @@ plugins {
     alias(libs.plugins.composeCompiler) apply false
     alias(libs.plugins.kotlinMultiplatform) apply false
     id("io.sentry.android.gradle") version "6.0.0" apply false
+    alias(libs.plugins.google.gms.google.services) apply false
 
 }
